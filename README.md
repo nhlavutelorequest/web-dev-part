@@ -1,4 +1,5 @@
 # Refrance and Proposal for part 1
+## Referance for part 1 
 Dreamstime (n.d.). IT team providing support. [online] Available at: https://www.dreamstime.com
  [Accessed 26 Aug. 2025].
 Bootstrap (n.d.). Card components and responsive layout ideas. [online] Available at: https://getbootstrap.com
@@ -18,6 +19,8 @@ W3Schools (n.d.). HTML5 and CSS layout examples. [online] Available at: https://
 
 MDN Web Docs (n.d.). HTML5 reference and CSS animation. [online] Available at: https://developer.mozilla.org/
  [Accessed 26 Aug. 2025].
+
+ 
 # Proposal 
 Contents 
 PROPOSAL ............................................................................................................................................... 3 
@@ -38,20 +41,10 @@ TechFix Solutions (Small Business)..............................................
  
  
  
+
  
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-# PROPOSAL 
+### PROPOSAL 
 TechFix Solutions (Small Business) 
 Name: TechFix Solutions 
 TechFix Solutions(pexels.com,2025) . 
@@ -143,7 +136,7 @@ Testing, debugging, deployment   Live website ready for use
 • Hosting (Afrihost): R150/month.  
 • Website Development: R3, 500 (one-time fee). 
 • Maintenance & Updates: R500/006Donth. Total First-Year Estimate: R10, 300. 
-9. References 
+### 9. References 
 TechFix Solutions. (2025) TechFix Solutions: Company profile and strategic overview. 
 Polokwane: TechFix Solutions Publishing. 
 Website development for Tec fix solutions. Available 
