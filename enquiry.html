@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Enquiry - TechFix Solutions</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+    <!--  Link to JS file -->
+  </head>
+  <body>
+    <header>
+      <img src="images/img.jpg" alt="TechFix Solutions Logo" />
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="enquiry.html">Enquiry</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Send Us an Enquiry</h1>
+      <form action="#" method="post">
+        <label for="name">Full Name:</label><br />
+        <input type="text" id="name" name="name" required /><br /><br />
+
+        <label for="email">Email Address:</label><br />
+        <input type="email" id="email" name="email" required /><br /><br />
+
+        <label for="orgType">Type of Organization:</label><br />
+        <select id="orgType" name="orgType" required>
+          <option value="">-- Select --</option>
+          <option value="business">Business</option>
+          <option value="individual">Individual</option>
+          <option value="npo">NPO</option></select
+        ><br /><br />
+
+        <div id="npoOptions" style="display: none">
+          <label>Interested In:</label><br />
+          <input
+            type="radio"
+            id="volunteer"
+            name="npoInterest"
+            value="volunteer"
+          />
+          <label for="volunteer">Becoming a Volunteer</label><br />
+          <input type="radio" id="sponsor" name="npoInterest" value="sponsor" />
+          <label for="sponsor">Becoming a Sponsor</label><br /><br />
+        </div>
+
+        <label for="message">Your Message:</label><br />
+        <textarea id="message" name="message" rows="5" required></textarea
+        ><br /><br />
+
+        <button type="submit">Submit Enquiry</button>
+      </form>
+    </main>
+
+    <footer>&copy; 2025 TechFix Solutions. All rights reserved.</footer>
+  </body>
+</html>

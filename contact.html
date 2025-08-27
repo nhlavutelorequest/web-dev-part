@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contact Us - TechFix Solutions</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <img src="images/img.jpg" alt="TechFix Solutions Logo" />
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="enquiry.html">Enquiry</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Contact Us</h1>
+
+      <p>Email: support@techfixsolutions.com</p>
+      <p>Phone: +1 (800) 123-4567</p>
+
+      <p><strong>Location 1:</strong> 123 Tech Street, Silicon Valley, CA</p>
+      <p><strong>Location 2:</strong> 456 Innovation Road, New York, NY</p>
+
+      <!-- Map for multiple locations -->
+      <div class="map-container">
+        <!-- Location 1 -->
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3171.953641389277!2d-122.08424928469206!3d37.42199977982544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb5bfcf5b24f3%3A0xd1b769c1e70583b2!2sGoogleplex!5e0!3m2!1sen!2sus!4v1628615645569!5m2!1sen!2sus"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+
+        <!-- Location 2 -->
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.832211698817!2d-73.98565608459482!3d40.75889627932678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258f9d3546f65%3A0x6e2d88a49d19cb40!2sTimes%20Square!5e0!3m2!1sen!2sus!4v1628615881044!5m2!1sen!2sus"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </div>
+
+      <h2>Send Us a Message</h2>
+      <form action="#" method="post">
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required />
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+
+    <footer>&copy; 2025 TechFix Solutions. All rights reserved.</footer>
+  </body>
+</html>
