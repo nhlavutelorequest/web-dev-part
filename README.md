@@ -48,7 +48,7 @@ Professional spacing system
 * *Layout structured* using CSS Flexbox and Grid.
 * *Decorative styles* added (colors, shadows, borders).
 * *Responsive design* added with breakpoints for mobile devices.
-* *README.md updated* with Part 2 documentation and references.
+
 
   ## Here is the screenshot for evidence of testing and interate
   <img width="1310" height="705" alt="image" src="https://github.com/user-attachments/assets/d902da59-4b67-48f3-915d-e7a4588c0b0a" />
