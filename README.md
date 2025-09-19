@@ -1,24 +1,81 @@
-# Refrance and Proposal for part 1
-## Referance for part 1 
+
+## The things that i updated on part 2
+### fistly is referance and everything that was needed to part 2
+
+
+# 📌 Part 2 – Designing the Visuals: CSS Styling and Responsive Design
+
+## ✅ Updates Implemented
+
+* Created an *external stylesheet* (style.css) and linked it to all HTML files.
+* Applied *base styles* for font family, font size, color scheme, margins, and padding.
+* Added *typography styles* using font-family, font-size, font-weight, line-height, and letter-spacing.
+* Structured layout using *Flexbox and Grid* for a clean desktop solution.
+* Applied *visual styles* (background colors, borders, box shadows, spacing).
+* Implemented *responsive design* with media queries for different screen sizes.
+* Tested styles across different browsers and devices.
+
+
+✨ Added Interactive Elements:
+
+Hover effects on cards and buttons
+Animated background particles
+Glowing effects and smooth transitions
+Professional button animations with shimmer effects
+Pulsing submit button to draw attention
+
+📱 Mobile Optimization:
+
+Responsive grid layouts
+Proper mobile navigation
+Touch-friendly button sizes
+Optimized spacing for small screens
+
+🎯 Professional Features:
+
+Clean CSS custom properties (variables) for consistency
+Modern backdrop blur effects
+Subtle shadows and depth
+Professional spacing system
+
+
+## 📝 Changelog (Part 1 → Part 2)
+
+* *Linked external CSS* to all HTML pages.
+* *Standardized naming conventions* for CSS classes and IDs.
+* *Base style added* (font settings, reset styles, margins/padding).
+* *Typography improvements* (scales, spacing, readability).
+* *Layout structured* using CSS Flexbox and Grid.
+* *Decorative styles* added (colors, shadows, borders).
+* *Responsive design* added with breakpoints for mobile devices.
+* *README.md updated* with Part 2 documentation and references.
+
+  ## Here is the screenshot for evidence of testing and interate
+  <img width="1310" height="705" alt="image" src="https://github.com/user-attachments/assets/d902da59-4b67-48f3-915d-e7a4588c0b0a" />
+
+
+  <img width="1310" height="705" alt="Screenshot 2025-09-19 133015" src="https://github.com/user-attachments/assets/b1f798f4-2bfb-4a56-a6ec-d71ccbb77340" />
+
+## Updated Referance for part 2
 Dreamstime (n.d.). IT team providing support. [online] Available at: https://www.dreamstime.com
- [Accessed 26 Aug. 2025].
+ [Accessed 29 Aug. 2025].
 Bootstrap (n.d.). Card components and responsive layout ideas. [online] Available at: https://getbootstrap.com
- [Accessed 26 Aug. 2025].
+ [Accessed 30 Aug. 2025].
 Alamy (n.d.). Virus removal concept illustration. [online] Available at: https://www.alamy.com
- [Accessed 26 Aug. 2025].
+ [Accessed 5 sept. 2025].
 
 Depositphotos (n.d.). Network setup image. [online] Available at: https://www.depositphotos.com
- [Accessed 26 Aug. 2025].
+ [Accessed 1 sept. 2025].
 
 Malwarebytes Labs (n.d.). Cybersecurity concept. [online] Available at: https://www.malwarebytes.com/blog
- [Accessed 26 Aug. 2025].
+ [Accessed 20 sept. 2025].
 Google (n.d.). Google Maps Embed API. [online] Available at: https://developers.google.com/maps/documentation/embed
- [Accessed 26 Aug. 2025].
+ [Accessed 22 august. 2025].
 W3Schools (n.d.). HTML5 and CSS layout examples. [online] Available at: https://www.w3schools.com
- [Accessed 26 Aug. 2025].
+ [Accessed 09 Sept. 2025].
 
 MDN Web Docs (n.d.). HTML5 reference and CSS animation. [online] Available at: https://developer.mozilla.org/
- [Accessed 26 Aug. 2025].
+ [Accessed 10 sept. 2025].
 
  
 # Proposal 
@@ -39,10 +96,7 @@ TechFix Solutions (Small Business)..............................................
  
  
  
- 
- 
-
- 
+  
  
 ### PROPOSAL 
 TechFix Solutions (Small Business) 
