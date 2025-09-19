@@ -54,8 +54,6 @@ Professional spacing system
   <img width="1310" height="705" alt="image" src="https://github.com/user-attachments/assets/d902da59-4b67-48f3-915d-e7a4588c0b0a" />
 
 
-  <img width="1310" height="705" alt="Screenshot 2025-09-19 133015" src="https://github.com/user-attachments/assets/b1f798f4-2bfb-4a56-a6ec-d71ccbb77340" />
-
 ## Updated Referance for part 2
 Dreamstime (n.d.). IT team providing support. [online] Available at: https://www.dreamstime.com
  [Accessed 29 Aug. 2025].
