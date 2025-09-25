@@ -56,22 +56,30 @@ Professional spacing system
 
 ## Updated Referance for part 2
 
-Dreamstime (n.d.). *IT team providing support* [online]. Available at: [https://www.dreamstime.com](https://www.dreamstime.com) [Accessed 29 Aug. 2025].
+Alamy (n.d.). Virus removal concept illustration [online]. Available at: https://www.alamy.com
+ [Accessed 5 Sept. 2025].
 
-Bootstrap (n.d.). *Card components and responsive layout ideas* [online]. Available at: [https://getbootstrap.com](https://getbootstrap.com) [Accessed 30 Aug. 2025].
+Bootstrap (n.d.). Card components and responsive layout ideas [online]. Available at: https://getbootstrap.com
+ [Accessed 30 Aug. 2025].
 
-Alamy (n.d.). *Virus removal concept illustration* [online]. Available at: [https://www.alamy.com](https://www.alamy.com) [Accessed 5 Sept. 2025].
+Depositphotos (n.d.). Network setup image [online]. Available at: https://www.depositphotos.com
+ [Accessed 1 Sept. 2025].
 
-Depositphotos (n.d.). *Network setup image* [online]. Available at: [https://www.depositphotos.com](https://www.depositphotos.com) [Accessed 1 Sept. 2025].
+Dreamstime (n.d.). IT team providing support [online]. Available at: https://www.dreamstime.com
+ [Accessed 29 Aug. 2025].
 
-Malwarebytes Labs (n.d.). *Cybersecurity concept* [online]. Available at: [https://www.malwarebytes.com/blog](https://www.malwarebytes.com/blog) [Accessed 20 Sept. 2025].
+Google (n.d.). Google Maps Embed API [online]. Available at: https://developers.google.com/maps/documentation/embed
+ [Accessed 22 Aug. 2025].
 
-Google (n.d.). *Google Maps Embed API* [online]. Available at: [https://developers.google.com/maps/documentation/embed](https://developers.google.com/maps/documentation/embed) [Accessed 22 Aug. 2025].
+Malwarebytes Labs (n.d.). Cybersecurity concept [online]. Available at: https://www.malwarebytes.com/blog
+ [Accessed 20 Sept. 2025].
 
-W3Schools (n.d.). *HTML5 and CSS layout examples* [online]. Available at: [https://www.w3schools.com](https://www.w3schools.com) [Accessed 09 Sept. 2025].
+TechFix Solutions. (2025) TechFix Solutions: Clean & Modern CSS Stylesheet. Available at: https://example.com/styles.css(Accessed: 25 September 2025).
 
-MDN Web Docs (n.d.). *HTML5 reference and CSS animation* [online]. Available at: [https://developer.mozilla.org/](https://developer.mozilla.org/) [Accessed 10 Sept. 2025].
+TechFix Solutions (2025). Company Profile and Business Outlook. Pexels.com.
 
+W3Schools (n.d.). HTML5 and CSS layout examples [online]. Available at: https://www.w3schools.com
+ [Accessed 09 Sept. 2025].
 
  
 # Proposal 
