@@ -1,0 +1,37 @@
+# robots.txt for TechFix Solutions
+# This file tells search engine crawlers what they can and can't access.
+
+# Allow all user agents (default rule)
+User-agent: *
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /backup/
+Allow: /css/
+Allow: /js/
+Allow: /images/
+
+# Specific rules for major search engines (optional if same as above)
+User-agent: Googlebot
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /backup/
+
+User-agent: Bingbot
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /backup/
+
+User-agent: Slurp
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /backup/
+
+# Sitemap location
+Sitemap: https://techfixsolutions.com/sitemap.xml
+
+# Optional: Crawl delay to reduce server load
+Crawl-delay: 1
