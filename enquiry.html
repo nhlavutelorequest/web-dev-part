@@ -21,7 +21,8 @@
 
     <main>
       <h1>Send Us an Enquiry</h1>
-      <form action="#" method="post">
+
+      <form id="enquiryForm" action="#" method="post">
         <label for="name">Full Name:</label><br />
         <input type="text" id="name" name="name" required /><br /><br />
 
@@ -33,8 +34,9 @@
           <option value="">-- Select --</option>
           <option value="business">Business</option>
           <option value="individual">Individual</option>
-          <option value="npo">NPO</option></select
-        ><br /><br />
+          <option value="npo">NPO</option>
+        </select>
+        <br /><br />
 
         <div id="npoOptions" style="display: none">
           <label>Interested In:</label><br />
@@ -55,10 +57,14 @@
 
         <button type="submit">Submit Enquiry</button>
       </form>
+
+      <!-- Success message (hidden by default) -->
+      <div id="successMessage" class="success-message" style="display: none">
+        Enquiry was submitted successfully!
+      </div>
     </main>
 
     <footer>&copy; 2025 TechFix Solutions. All rights reserved.</footer>
   </body>
 </html>
-
 
