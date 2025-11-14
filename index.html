@@ -2,14 +2,139 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>TechFix Solutions - Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO Meta Tags -->
+    <title>
+      TechFix Solutions - Professional IT Services | 24/7 Tech Support &
+      Computer Repair
+    </title>
+    <meta
+      name="description"
+      content="TechFix Solutions provides professional IT services including 24/7 tech support, computer repair, network setup, cybersecurity, and device repair. Expert solutions for all your technology needs."
+    />
+    <meta
+      name="keywords"
+      content="IT services, tech support, computer repair, TechFix, technology solutions, 24/7 support, device repair, cybersecurity, network setup, laptop repair"
+    />
+    <meta name="author" content="TechFix Solutions" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://techfixsolutions.com/" />
+    <meta
+      property="og:title"
+      content="TechFix Solutions - Professional IT Services"
+    />
+    <meta
+      property="og:description"
+      content="Expert IT solutions for all your technology needs. 24/7 tech support, device repair, and cybersecurity services."
+    />
+    <meta
+      property="og:image"
+      content="https://techfixsolutions.com/images/techsup.jfif"
+    />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://techfixsolutions.com/" />
+    <meta
+      name="twitter:title"
+      content="TechFix Solutions - Professional IT Services"
+    />
+    <meta
+      name="twitter:description"
+      content="Expert IT solutions for all your technology needs. 24/7 tech support, device repair, and cybersecurity services."
+    />
+    <meta
+      name="twitter:image"
+      content="https://techfixsolutions.com/images/techsup.jfif"
+    />
+
     <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+
+    <!-- Structured Data - Organization Schema -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "TechFix Solutions",
+        "description": "Professional IT Services Provider offering 24/7 tech support, computer repair, and cybersecurity solutions",
+        "url": "https://techfixsolutions.com",
+        "logo": "https://techfixsolutions.com/images/img.jpg",
+        "telephone": "+1-800-123-4567",
+        "email": "support@techfixsolutions.com",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "123 Tech Street",
+          "addressLocality": "Silicon Valley",
+          "addressRegion": "CA",
+          "postalCode": "94000",
+          "addressCountry": "US"
+        },
+        "sameAs": [
+          "https://facebook.com/techfixsolutions",
+          "https://twitter.com/techfixsolutions",
+          "https://linkedin.com/company/techfixsolutions"
+        ],
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+1-800-123-4567",
+          "contactType": "customer service",
+          "areaServed": "Worldwide",
+          "availableLanguage": ["English"]
+        }
+      }
+    </script>
+
+    <!-- Structured Data - Local Business Schema -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "TechFix Solutions",
+        "image": "https://techfixsolutions.com/images/img.jpg",
+        "priceRange": "$$",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "123 Tech Street",
+          "addressLocality": "Silicon Valley",
+          "addressRegion": "CA",
+          "postalCode": "94000",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 37.422,
+          "longitude": -122.0841
+        },
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "00:00",
+          "closes": "23:59"
+        }
+      }
+    </script>
   </head>
   <body>
     <header>
-      <img src="images/img.jpg" alt="TechFix Solutions Logo" />
-      <nav>
-        <a href="index.html">Home</a>
+      <img
+        src="images/img.jpg"
+        alt="TechFix Solutions - Professional IT Services Company Logo"
+      />
+      <nav aria-label="Main Navigation">
+        <a href="index.html" aria-current="page">Home</a>
         <a href="about.html">About</a>
         <a href="services.html">Services</a>
         <a href="enquiry.html">Enquiry</a>
@@ -22,7 +147,7 @@
       <section class="hero">
         <img
           src="images/techsup.jfif"
-          alt="Tech Team Working"
+          alt="TechFix Solutions professional tech team collaborating on IT support services"
           class="hero-image"
         />
         <h1>Welcome to TechFix Solutions</h1>
@@ -36,30 +161,39 @@
       <section class="features">
         <h2>What We Offer</h2>
         <div class="feature-cards">
-          <div class="feature">
-            <img src="images/hours.jfif" alt="Support Service" />
+          <article class="feature">
+            <img
+              src="images/hours.jfif"
+              alt="24/7 tech support service available around the clock"
+            />
             <h3>24/7 Tech Support</h3>
             <p>
               Our experts are available around the clock to help you resolve
               technical issues quickly and efficiently.
             </p>
-          </div>
-          <div class="feature">
-            <img src="images/devicerp.jpg" alt="Device Repair" />
+          </article>
+          <article class="feature">
+            <img
+              src="images/devicerp.jpg"
+              alt="Professional device repair services for computers and laptops"
+            />
             <h3>Device Repair</h3>
             <p>
               We repair a wide range of devices including PCs, laptops, and
               mobile phones with guaranteed satisfaction.
             </p>
-          </div>
-          <div class="feature">
-            <img src="images/lastpic.jfif" alt="Cybersecurity" />
+          </article>
+          <article class="feature">
+            <img
+              src="images/lastpic.jfif"
+              alt="Comprehensive cybersecurity solutions to protect your business"
+            />
             <h3>Cybersecurity Solutions</h3>
             <p>
               Protect your business from online threats with our comprehensive
               cybersecurity services.
             </p>
-          </div>
+          </article>
         </div>
       </section>
 
@@ -71,14 +205,14 @@
             "TechFix Solutions saved our company during a critical server crash.
             Highly recommended!"
           </p>
-          <p>- Sarah L., Business Owner</p>
+          <p><strong>- Sarah L., Business Owner</strong></p>
         </div>
         <div class="testimonial">
           <p>
             "Quick, reliable, and knowledgeable. My go-to team for anything
             tech-related."
           </p>
-          <p>- James D., Freelancer</p>
+          <p><strong>- James D., Freelancer</strong></p>
         </div>
       </section>
 
@@ -96,5 +230,4 @@
     <footer>&copy; 2025 TechFix Solutions. All rights reserved.</footer>
   </body>
 </html>
-
 
