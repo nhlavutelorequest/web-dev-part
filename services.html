@@ -1,17 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What areas do you serve?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We serve clients globally with on-site services in major South African cities and remote support worldwide."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How quickly can you respond to service requests?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We offer same-day service for urgent requests and 24/7 emergency support. Standard requests are scheduled within 24–48 hours."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you offer warranties on repairs?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. All hardware repairs include a 90-day warranty, and software services include 30-day support."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What payment methods do you accept?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We accept credit cards, bank transfers, PayPal, and NET 30 terms for business clients."
+            }
+          }
+        ]
+      }
+    </script>
+
     <meta charset="UTF-8" />
-    <title>Our Services - TechFix Solutions</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO Meta Tags -->
+    <title>
+      IT Services & Solutions | Computer Repair, Network Setup | TechFix
+      Solutions
+    </title>
+    <meta
+      name="description"
+      content="Professional IT services including computer repair, virus removal, network setup, data recovery, and IT consulting. 24/7 support available. Get expert tech solutions today!"
+    />
+    <meta
+      name="keywords"
+      content="IT services, computer repair, laptop repair, virus removal, network setup, data recovery, IT consulting, tech support, cybersecurity"
+    />
+    <meta name="author" content="TechFix Solutions" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="IT Services & Solutions - TechFix Solutions"
+    />
+    <meta
+      property="og:description"
+      content="Expert IT solutions for all your technology needs. 24/7 tech support, device repair, and cybersecurity services."
+    />
+    <meta property="og:image" content="images/bunner.jpg" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="IT Services & Solutions - TechFix Solutions"
+    />
+
     <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "serviceType": "IT Services",
+        "provider": {
+          "@type": "Organization",
+          "name": "TechFix Solutions"
+        }
+      }
+    </script>
   </head>
   <body>
     <header>
-      <img src="images/img.jpg" alt="TechFix Solutions Logo" />
-      <nav>
+      <img
+        src="images/img.jpg"
+        alt="TechFix Solutions - Professional IT Services Logo"
+      />
+      <nav aria-label="Main Navigation">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
-        <a href="services.html">Services</a>
+        <a href="services.html" aria-current="page">Services</a>
         <a href="enquiry.html">Enquiry</a>
         <a href="contact.html">Contact</a>
       </nav>
@@ -20,59 +114,234 @@
     <main>
       <!-- Hero Banner -->
       <section class="services-hero">
-        <h1>Our Services</h1>
-        <p>Expert IT solutions tailored to your business and personal needs.</p>
+        <h1>Our IT Services & Solutions</h1>
+        <p>
+          Expert IT solutions tailored to your business and personal needs.
+          Available 24/7 with guaranteed satisfaction.
+        </p>
         <div class="banner-wrapper">
           <img
             src="images/bunner.jpg"
-            alt="TechFix team providing services"
+            alt="TechFix professional team providing expert IT services"
             class="banner-image"
           />
         </div>
       </section>
 
+      <!-- Search Bar -->
+      <div class="search-container">
+        <input
+          type="search"
+          id="serviceSearch"
+          placeholder="🔍 Search for a service..."
+          aria-label="Search services"
+        />
+        <p
+          id="noResults"
+          class="no-results"
+          style="
+            display: none;
+            text-align: center;
+            color: gray;
+            margin-top: 1rem;
+          "
+        >
+          No matching services found.
+        </p>
+      </div>
+
       <!-- Services Grid -->
-      <section class="services-grid">
-        <div class="service-card">
-          <img src="images/devicerp.jpg" alt="Computer Repair" />
+      <section class="services-grid" aria-label="Our Services">
+        <article class="service-card">
+          <img
+            src="images/devicerp.jpg"
+            alt="Computer repair technician fixing laptop"
+          />
           <h2>Computer and Laptop Repair</h2>
           <p>
             We fix all brands of computers and laptops quickly and affordably.
+            Hardware replacements, software troubleshooting, and performance
+            optimization.
           </p>
-        </div>
+          <button
+            class="button open-modal"
+            data-service="Computer & Laptop Repair"
+            data-description="Our expert technicians diagnose and repair all types of computer issues including hardware failures, software problems, slow performance, and upgrades."
+          >
+            Learn More
+          </button>
+        </article>
 
-        <div class="service-card">
-          <img src="images/virusremoval.jpg" alt="Virus Removal" />
+        <article class="service-card">
+          <img
+            src="images/virusremoval.jpg"
+            alt="Virus and malware removal security scan"
+          />
           <h2>Virus & Malware Removal</h2>
           <p>
-            We remove harmful viruses and secure your system from future
-            threats.
+            We remove harmful viruses, spyware, and malware, then secure your
+            system from future threats with advanced protection tools.
           </p>
-        </div>
+          <button
+            class="button open-modal"
+            data-service="Virus & Malware Removal"
+            data-description="Complete virus and malware removal service including system cleaning, security hardening, and installation of enterprise-grade antivirus protection."
+          >
+            Learn More
+          </button>
+        </article>
 
-        <div class="service-card">
-          <img src="images/networksup.jfif" alt="Network Setup" />
-          <h2>Network Setup</h2>
+        <article class="service-card">
+          <img
+            src="images/networksup.jfif"
+            alt="Network setup and configuration service"
+          />
+          <h2>Network Setup & Configuration</h2>
           <p>
-            Need Wi-Fi at home or office? We set up fast and secure networks.
+            Need Wi-Fi at home or office? We set up fast, secure, and reliable
+            networks with optimal coverage and performance.
           </p>
-        </div>
+          <button
+            class="button open-modal"
+            data-service="Network Setup"
+            data-description="Professional network design and implementation including router configuration, Wi-Fi optimization, security setup, and ongoing network management."
+          >
+            Learn More
+          </button>
+        </article>
 
-        <div class="service-card">
-          <img src="images/datarec.jfif" alt="Data Recovery" />
-          <h2>Data Recovery</h2>
-          <p>Recover lost files from corrupted or damaged storage devices.</p>
-        </div>
-
-        <div class="service-card">
-          <img src="images/consultant.jpg" alt="IT Consulting" />
-          <h2>IT Consulting</h2>
+        <article class="service-card">
+          <img
+            src="images/datarec.jfif"
+            alt="Data recovery from damaged storage devices"
+          />
+          <h2>Data Recovery Services</h2>
           <p>
-            We offer expert advice for system upgrades, scalability, and
-            planning.
+            Recover lost or deleted files from corrupted, damaged, or formatted
+            storage devices including hard drives, SSDs, and USB drives.
           </p>
+          <button
+            class="button open-modal"
+            data-service="Data Recovery"
+            data-description="Advanced data recovery services for all types of storage devices. We can recover data from physical damage, logical corruption, and accidental deletion."
+          >
+            Learn More
+          </button>
+        </article>
+
+        <article class="service-card">
+          <img
+            src="images/consultant.jpg"
+            alt="IT consulting and strategic planning"
+          />
+          <h2>IT Consulting & Strategy</h2>
+          <p>
+            We offer expert advice for system upgrades, technology planning,
+            scalability, and digital transformation strategies.
+          </p>
+          <button
+            class="button open-modal"
+            data-service="IT Consulting"
+            data-description="Strategic IT consulting services to help businesses leverage technology effectively including infrastructure assessment and cloud migration."
+          >
+            Learn More
+          </button>
+        </article>
+
+        <article class="service-card">
+          <img
+            src="images/lastpic.jfif"
+            alt="Cybersecurity protection and monitoring"
+          />
+          <h2>Cybersecurity Solutions</h2>
+          <p>
+            Protect your business from online threats with comprehensive
+            cybersecurity services including monitoring, threat detection, and
+            incident response.
+          </p>
+          <button
+            class="button open-modal"
+            data-service="Cybersecurity"
+            data-description="Enterprise-grade cybersecurity solutions including firewall setup, intrusion detection, security audits, and employee training programs."
+          >
+            Learn More
+          </button>
+        </article>
+      </section>
+
+      <!-- Accordion FAQ Section -->
+      <section
+        class="about-section"
+        style="max-width: 900px; margin: var(--space-12) auto"
+      >
+        <h2 style="text-align: center">Frequently Asked Questions</h2>
+        <div class="accordion">
+          <div class="accordion-item">
+            <div class="accordion-header" role="button" tabindex="0">
+              What areas do you serve?
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content-inner">
+                We serve clients globally with on-site services in major cities
+                across South Africa and remote support available worldwide. Our
+                technicians can connect to your system securely for remote
+                troubleshooting and repairs.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-header" role="button" tabindex="0">
+              How quickly can you respond to service requests?
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content-inner">
+                We offer same-day service for urgent requests and 24/7 emergency
+                support. Standard service requests are typically scheduled
+                within 24-48 hours. Remote support can often begin within
+                minutes of your call.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-header" role="button" tabindex="0">
+              Do you offer warranties on repairs?
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content-inner">
+                Yes! All hardware repairs come with a 90-day warranty on parts
+                and labor. Software services include 30-day support to ensure
+                everything continues working properly. We stand behind our work
+                with a satisfaction guarantee.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-header" role="button" tabindex="0">
+              What payment methods do you accept?
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content-inner">
+                We accept all major credit cards, bank transfers, PayPal, and
+                for business clients, we offer NET 30 payment terms. Contact us
+                for details on corporate accounts and volume discounts.
+              </div>
+            </div>
+          </div>
         </div>
       </section>
+
+      <!-- Modal for Service Details -->
+      <div id="serviceModal" class="modal">
+        <div class="modal-content">
+          <span class="close-modal">&times;</span>
+          <h2 id="modal-title">Service Title</h2>
+          <p id="modal-description">Service description goes here.</p>
+          <a href="enquiry.html" class="button">Request This Service</a>
+        </div>
+      </div>
 
       <!-- Call to Action -->
       <section class="cta">
@@ -87,5 +356,3 @@
     <footer>&copy; 2025 TechFix Solutions. All rights reserved.</footer>
   </body>
 </html>
-
-
