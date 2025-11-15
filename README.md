@@ -22,7 +22,7 @@ The site showcases:
 This project is structured into **three developmental parts (Part 1, Part 2, Part 3)**
 
 
-# 📁 My Project Structure**
+# 📁 My Project Structure
 /project-root
 │── index.html
 │── about.html
