@@ -231,17 +231,6 @@ Proper mobile navigation
 Touch-friendly button sizes
 Optimized spacing for small screens
 
-## 📝 Changelog (Part 1 → Part 2)
-
-* *Linked external CSS* to all HTML pages.
-* *Standardized naming conventions* for CSS classes and IDs.
-* *Base style added* (font settings, reset styles, margins/padding).
-* *Typography improvements* (scales, spacing, readability).
-* *Layout structured* using CSS Flexbox and Grid.
-* *Decorative styles* added (colors, shadows, borders).
-* *Responsive design* added with breakpoints for mobile devices.
-
-
 # ✅ **Updated Reference for part 3**
 
 **Alamy** (n.d.) *Virus removal concept illustration* [online].
@@ -279,6 +268,18 @@ Available at: [https://www.pexels.com](https://www.pexels.com)
 **W3Schools** (n.d.) *HTML5 and CSS layout examples* [online].
 Available at: [https://www.w3schools.com](https://www.w3schools.com)
 (Accessed: **9 September 2025**).
+
+
+## 📝 Changelog (Part 1 → Part 2)
+
+* *Linked external CSS* to all HTML pages.
+* *Standardized naming conventions* for CSS classes and IDs.
+* *Base style added* (font settings, reset styles, margins/padding).
+* *Typography improvements* (scales, spacing, readability).
+* *Layout structured* using CSS Flexbox and Grid.
+* *Decorative styles* added (colors, shadows, borders).
+* *Responsive design* added with breakpoints for mobile devices.
+
 
 
 
