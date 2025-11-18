@@ -1,5 +1,5 @@
 
-# TechFix Solutions – Website Project
+# TechFix Solutions – Website Project(Final Part)
 
 ### A modern, responsive, and interactive multi-page website created for the Web Development module (WEDE5020), demonstrating advanced HTML, CSS, and JavaScript concepts alongside SEO best practices and user-friendly form validation.
 
